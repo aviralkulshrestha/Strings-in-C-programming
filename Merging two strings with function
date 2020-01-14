@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{	char str[100] , str1[100];
+	printf("Enter first string\n");
+	gets(str);
+	printf("Enter second string\n");
+	gets(str1);
+	strcat(str,str1);
+	puts(str);
+	return 0;
+}
